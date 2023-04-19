@@ -25,12 +25,13 @@ SECRET_KEY = 'django-insecure-ggjv8kvo64$t$164^p0k-gcz8iu$lyhtd_*8wvi6li-j38ib&#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ '*' ]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'polls',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
