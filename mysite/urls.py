@@ -9,7 +9,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index_method),
+    path('owner/', index_method),
     path('polls/', include('polls.urls'))
 ]
 
